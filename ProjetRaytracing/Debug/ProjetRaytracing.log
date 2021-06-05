@@ -1,0 +1,47 @@
+﻿  Camera.cpp
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\Camera.cpp(6,17): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+  Intersect.cpp
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\Intersect.cpp(71,17): warning C4018: '<' : incompatibilité signed/unsigned
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\Intersect.cpp(148,20): warning C4244: 'argument' : conversion de 'float' en 'const unsigned int', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\Intersect.cpp(149,39): warning C4244: 'argument' : conversion de 'float' en 'const unsigned int', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\Intersect.cpp(153,25): warning C4244: 'argument' : conversion de 'float' en 'const unsigned int', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\Intersect.cpp(155,39): warning C4244: 'argument' : conversion de 'float' en 'const unsigned int', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\Intersect.cpp(158,44): warning C4244: 'argument' : conversion de 'float' en 'const unsigned int', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\Intersect.cpp(205,78): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\Intersect.cpp(213,127): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\Intersect.cpp(215,20): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\Intersect.cpp(258,8): warning C4101: 'distance' : variable locale non référencée
+  Light.cpp
+  main.cpp
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\main.cpp(14,1): warning C4326: le type de retour de 'main' doit être 'int' au lieu de 'void'
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\main.cpp(69,46): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\main.cpp(69,37): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\main.cpp(69,27): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\main.cpp(109,27): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\main.cpp(109,24): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  Mat.cpp
+  Objet.cpp
+  Ray.cpp
+  Scene.cpp
+  Sphere.cpp
+  vec3.cpp
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\vec3.cpp(68,10): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\vec3.cpp(86,18): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\vec3.cpp(122,10): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\vec3.cpp(123,14): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  Génération de code en cours...
+D:\Projets Code\TP\ProjetRaytracing\ProjetRaytracing\Intersect.cpp(323): warning C4715: 'isIlluminate' : les chemins de contrôle ne retournent pas tous une valeur
+     Création de la bibliothèque D:\Projets Code\TP\ProjetRaytracing\Debug\ProjetRaytracing.lib et de l'objet D:\Projets Code\TP\ProjetRaytracing\Debug\ProjetRaytracing.exp
+LINK : warning LNK4217: le symbole '?add3@@YA?AUvect3_s@@U1@0@Z (struct vect3_s __cdecl add3(struct vect3_s,struct vect3_s))' défini dans 'vec3.obj' est importé par 'Intersect.obj' dans la fonction '"struct tagRGBQUAD __cdecl isIlluminate(class Intersection_c,class Scene_c)" (?isIlluminate@@YA?AUtagRGBQUAD@@VIntersection_c@@VScene_c@@@Z)'
+LINK : warning LNK4286: le symbole '?add3@@YA?AUvect3_s@@U1@0@Z (struct vect3_s __cdecl add3(struct vect3_s,struct vect3_s))' défini dans 'vec3.obj' est importé par 'Ray.obj'
+LINK : warning LNK4217: le symbole '?sub3@@YA?AUvect3_s@@U1@0@Z (struct vect3_s __cdecl sub3(struct vect3_s,struct vect3_s))' défini dans 'vec3.obj' est importé par 'Intersect.obj' dans la fonction '"class Intersection_c * __cdecl UniIsIntersect(class Ray_c,class Scene_c,struct vect3_s)" (?UniIsIntersect@@YAPAVIntersection_c@@VRay_c@@VScene_c@@Uvect3_s@@@Z)'
+LINK : warning LNK4286: le symbole '?sub3@@YA?AUvect3_s@@U1@0@Z (struct vect3_s __cdecl sub3(struct vect3_s,struct vect3_s))' défini dans 'vec3.obj' est importé par 'Ray.obj'
+LINK : warning LNK4286: le symbole '?sub3@@YA?AUvect3_s@@U1@0@Z (struct vect3_s __cdecl sub3(struct vect3_s,struct vect3_s))' défini dans 'vec3.obj' est importé par 'Sphere.obj'
+LINK : warning LNK4217: le symbole '?mul3@@YA?AUvect3_s@@U1@M@Z (struct vect3_s __cdecl mul3(struct vect3_s,float))' défini dans 'vec3.obj' est importé par 'Intersect.obj' dans la fonction '"struct tagRGBQUAD __cdecl isIlluminate(class Intersection_c,class Scene_c)" (?isIlluminate@@YA?AUtagRGBQUAD@@VIntersection_c@@VScene_c@@@Z)'
+LINK : warning LNK4286: le symbole '?mul3@@YA?AUvect3_s@@U1@M@Z (struct vect3_s __cdecl mul3(struct vect3_s,float))' défini dans 'vec3.obj' est importé par 'Sphere.obj'
+LINK : warning LNK4217: le symbole '?normalize3@@YA?AUvect3_s@@U1@@Z (struct vect3_s __cdecl normalize3(struct vect3_s))' défini dans 'vec3.obj' est importé par 'Intersect.obj' dans la fonction '"struct tagRGBQUAD __cdecl isIlluminate(class Intersection_c,class Scene_c)" (?isIlluminate@@YA?AUtagRGBQUAD@@VIntersection_c@@VScene_c@@@Z)'
+LINK : warning LNK4217: le symbole '?distance3@@YAMUvect3_s@@0@Z (float __cdecl distance3(struct vect3_s,struct vect3_s))' défini dans 'vec3.obj' est importé par 'Intersect.obj' dans la fonction '"class Intersection_c * __cdecl UniIsIntersect(class Ray_c,class Scene_c,struct vect3_s)" (?UniIsIntersect@@YAPAVIntersection_c@@VRay_c@@VScene_c@@Uvect3_s@@@Z)'
+LINK : warning LNK4217: le symbole '?dot3@@YAMUvect3_s@@0@Z (float __cdecl dot3(struct vect3_s,struct vect3_s))' défini dans 'vec3.obj' est importé par 'Intersect.obj' dans la fonction '"struct tagRGBQUAD __cdecl isIlluminate(class Intersection_c,class Scene_c)" (?isIlluminate@@YA?AUtagRGBQUAD@@VIntersection_c@@VScene_c@@@Z)'
+LINK : warning LNK4217: le symbole '?reflect3@@YA?AUvect3_s@@U1@0@Z (struct vect3_s __cdecl reflect3(struct vect3_s,struct vect3_s))' défini dans 'vec3.obj' est importé par 'Intersect.obj' dans la fonction '"struct tagRGBQUAD __cdecl isIlluminate(class Intersection_c,class Scene_c)" (?isIlluminate@@YA?AUtagRGBQUAD@@VIntersection_c@@VScene_c@@@Z)'
+LINK : warning LNK4217: le symbole '?set3@@YA?AUvect3_s@@MMM@Z (struct vect3_s __cdecl set3(float,float,float))' défini dans 'vec3.obj' est importé par 'main.obj' dans la fonction '"void __cdecl mainloop(class Scene_c,struct FIBITMAP *,class Camera_c *)" (?mainloop@@YAXVScene_c@@PAUFIBITMAP@@PAVCamera_c@@@Z)'
+  ProjetRaytracing.vcxproj -> D:\Projets Code\TP\ProjetRaytracing\Debug\ProjetRaytracing.exe
